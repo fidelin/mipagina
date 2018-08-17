@@ -1,0 +1,158 @@
+body{
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  background-color: #ffffb0;
+  font-family: cursive;
+}
+#general{
+  width: 1200px;
+  height: 1050px;
+  text-align: left;
+  margin-top: auto;
+}
+header{
+	color: red;
+  text-align: center;
+  font: bold 25px verdana;
+	font-family: cursive;
+  text-shadow: #380e14 3px 3px 3px;
+  padding-bottom: 40px;
+}
+
+#tipos div:hover {
+  -webkit-transform:scale(1.4);transform:scale(1.4);
+}
+
+#tipos div{
+  margin-left: 42px;
+}
+#izquierda{
+  float: left;
+  width: 420px;
+  height: 1050px
+  padding: 0 0px 0px 0px;
+}
+#izquierda video{
+  width: 420px;
+  border-radius: 5px;
+}
+li a:hover{
+  font-size: 20px;
+  color: red;
+  background-color: #d0a36f;
+  border-radius: 5px;
+}
+#derecha{
+  margin: 0 0 0 450px;
+    padding: 0 20px 20px 20px;
+  }
+
+#derecha img{
+  height: 350px;
+  border-radius: 10px;
+}
+#tipos{
+  margin: 25px;
+  text-align: left;
+}
+#tipos  ul{
+  list-style: none;
+}
+
+#tipos  ul a{
+  text-decoration: none;
+}
+#texo{
+  margin: 25px;
+  text-align: justify;
+  font-family: cursive;
+}
+
+#texo img{
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+}
+
+h1,h2,h3{
+  color:red;
+  background-color: #d0a36f;
+  border-radius: 5px;
+}
+
+#h3{
+
+}
+footer
+{
+    background:  url('imagen/naked.jpg') no-repeat top center, url('images/line.png') repeat-x top, url('images/shadow.png') repeat-x top;
+    padding-top: 25px;
+    text-align: center;
+}
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+
+#tweet, #my_pictures, #my_friends
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#tweet
+{
+    width: 20%;
+    text-decoration: none;
+    color: #760001;
+}
+#my_pictures
+{
+    width: 35%;
+}
+
+#my_friends
+{
+    width: 31%;
+}
+
+#my_pictures img
+{
+    margin-right: 2px;
+    border-radius: 5px;
+    height: 70px;
+    width: 100px;
+
+}
+#my_pictures p img:hover
+{
+    -webkit-transform:scale(1.6);transform:scale(1.6);
+}
+
+#my_friends ul
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    width: 48%;
+    list-style-image: url('images/external_link.png');
+    padding-left: 2px;
+}
+
+#my_friends a
+{
+    text-decoration: none;
+    color: #760001;
+}
+
+#pie{
+
+}
